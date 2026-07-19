@@ -1,4 +1,15 @@
 import { Vehicle, Testimonial, FAQItem, ServiceItem, GalleryItem } from './types';
+import ToyotaFortuner from './assets/images/Toyota_Fortuner.jpg';
+import HondaCity from './assets/images/hondacity.jpg';
+import Swift from './assets/images/swift.jpg';
+import Classic350 from './assets/images/Classic350.jpg';
+import YamahaR15 from './assets/images/v3.jpg';
+import Duke250 from './assets/images/250.jpg';
+
+import Ecr from './assets/images/ecr.jpg';
+import Nilgiri from './assets/images/nilgiri.jpg';
+import Sunset from './assets/images/sunset.jpg';
+import BeachRoad from './assets/images/beachroad.jpg';
 
 export const PHONE_NUMBER = '+919876543210';
 export const WHATSAPP_NUMBER = '+919876543210';
@@ -10,67 +21,67 @@ export const VEHICLES: Vehicle[] = [
     id: 'toyota-fortuner',
     name: 'Toyota Fortuner',
     type: 'car',
-    image: '../assets/images/Toyota_Fortuner.jpg',
+    image: ToyotaFortuner,
     fuel: 'Diesel',
     transmission: 'Automatic',
     seats: '7 Seater',
     category: 'Premium SUV',
-    description: 'Commanding road presence, absolute comfort, and rugged capabilities. The ultimate SUV for Tamil Nadu\'s highways and group trips.'
+    description: 'Commanding road presence, absolute comfort, and rugged capabilities.'
   },
   {
     id: 'honda-city',
     name: 'Honda City',
     type: 'car',
-    image: '../assets/images/hondacity.jpg',
+    image: HondaCity,
     fuel: 'Petrol',
     transmission: 'Automatic',
     seats: '5 Seater',
     category: 'Premium Sedan',
-    description: 'Executive style, plush ride quality, and advanced features. Ideal for business travel, corporate rentals, and comfortable family road trips.'
+    description: 'Executive style, plush ride quality, and advanced features.'
   },
   {
     id: 'maruti-swift',
     name: 'Maruti Swift',
     type: 'car',
-    image: '../assets/images/swift.jpg',
+    image: Swift,
     fuel: 'Petrol',
     transmission: 'Manual',
     seats: '5 Seater',
     category: 'Compact Hatchback',
-    description: 'Zippy performance, outstanding fuel efficiency, and easy city maneuvering. Perfect for exploring Chennai and weekend getaways.'
+    description: 'Zippy performance and outstanding fuel efficiency.'
   },
   {
     id: 'royal-enfield-classic',
     name: 'Royal Enfield Classic 350',
     type: 'bike',
-    image: '../assets/images/Classic350.jpg',
+    image: Classic350,
     fuel: 'Petrol',
     transmission: 'Manual (5-Speed)',
     seats: '2 Seater',
     category: 'Retro Cruiser',
-    description: 'Iconic thumping motor, timeless retro styling, and relaxed riding posture. Tour the scenic ECR, Ooty, or Kodaikanal in absolute style.'
+    description: 'Iconic thumping motor and timeless styling.'
   },
   {
     id: 'yamaha-r15-v4',
     name: 'Yamaha R15 V4',
     type: 'bike',
-    image: '../assets/images/v3.jpg',
+    image: YamahaR15,
     fuel: 'Petrol',
     transmission: 'Manual (6-Speed)',
     seats: '2 Seater',
     category: 'Super Sport',
-    description: 'Racing DNA, razor-sharp handling, and aggressive styling. An adrenaline-filled machine for highway carving and spirited weekend rides.'
+    description: 'Racing DNA and razor-sharp handling.'
   },
   {
     id: 'ktm-duke',
     name: 'KTM Duke 250',
     type: 'bike',
-    image: '../assets/images/250.jpg',
+    image: Duke250,
     fuel: 'Petrol',
     transmission: 'Manual (6-Speed)',
     seats: '2 Seater',
     category: 'Naked Streetfighter',
-    description: 'Thrilling acceleration, lightweight chassis, and aggressive performance. Elevate your weekend escapes on the winding ghat roads.'
+    description: 'Thrilling acceleration and lightweight chassis.'
   }
 ];
 
@@ -128,50 +139,50 @@ export const SERVICES: ServiceItem[] = [
 export const GALLERY: GalleryItem[] = [
   {
     id: 'gallery-1',
-    url: '../assets/images/ecr.jpg',
+    url: Ecr,
     caption: 'Cruising down the ECR coastal highway near Chennai',
     category: 'scenic'
   },
   {
     id: 'gallery-2',
-    url: '../assets/images/nilgiri.jpg',
-    caption: 'Winding roads through Nilgiri tea estates in Ooty',
+    url: Nilgiri,
+    caption: 'Winding roads through Nilgiri tea estates',
     category: 'scenic'
   },
   {
     id: 'gallery-3',
-    url: '../assets/images/Toyota_Fortuner.jpg',
-    caption: 'Our Toyota Fortuner prepared for high mountain road trips',
+    url: ToyotaFortuner,
+    caption: 'Toyota Fortuner prepared for mountain road trips',
     category: 'cars'
   },
   {
     id: 'gallery-4',
-    url: '../assets/images/v3.jpg',
-    caption: 'Sleek Yamaha R15 sports bike parked at a scenic coastal lookout',
+    url: YamahaR15,
+    caption: 'Yamaha R15 sports bike',
     category: 'bikes'
   },
   {
     id: 'gallery-5',
     url: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&q=80&w=600',
-    caption: 'Royal Enfield Classic cruising the serene coastal highway',
+    caption: 'Royal Enfield Classic',
     category: 'bikes'
   },
   {
     id: 'gallery-6',
     url: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=600',
-    caption: 'Premium sedan handling the curving highway curves flawlessly',
+    caption: 'Premium Sedan',
     category: 'cars'
   },
   {
     id: 'gallery-7',
-    url: '../assets/images/sunset.jpg',
-    caption: 'Spectacular sunset highway overlooking Tamil Nadu mountain passes',
+    url: Sunset,
+    caption: 'Tamil Nadu sunset highway',
     category: 'scenic'
   },
   {
     id: 'gallery-8',
-    url: '../assets/images/beachroad.jpg',
-    caption: 'Serene beach highway road trip with DriveX vehicles',
+    url: BeachRoad,
+    caption: 'Beach road trip',
     category: 'scenic'
   }
 ];

@@ -1,0 +1,6 @@
+{
+  "name": "DriveX Car & Bike Rentals",
+  "description": "Premium, corporate Car & Bike Rentals across Tamil Nadu. Safe, clean, and well-maintained vehicles for family, corporate, and leisure travels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
